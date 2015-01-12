@@ -16,6 +16,7 @@ def finished? (turns, guesses, answer)
 end
 
 def greeting
+  puts `clear`
   puts 'Welcome to the game of Hangman! Lets get started'
 end
 
